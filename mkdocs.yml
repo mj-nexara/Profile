@@ -1,0 +1,73 @@
+site_name: Nexara Profile Hub
+site_url: https://mj-nexara.github.io/profile/
+repo_url: https://github.com/mj-nexara/profile
+repo_name: mj-nexara/profile
+
+theme:
+  name: material
+  language: en
+  logo: assets/logo.png
+  favicon: assets/favicon.ico
+  palette:
+    scheme: default
+    primary: blue grey
+    accent: indigo
+  features:
+    - search.highlight
+    - search.share
+    - search.suggest
+    - navigation.instant
+    - navigation.tabs
+    - navigation.top
+    - navigation.sections
+    - navigation.expand
+    - header.autohide
+    - toc.integrate
+    - content.code.annotate
+    - version.dropdown
+
+plugins:
+  - search
+  - tags
+  - git-revision-date
+  - awesome-pages
+
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/mj-nexara
+      name: GitHub Organization
+    - icon: fontawesome/brands/linkedin
+      link: https://linkedin.com/in/jafor-ahmad
+      name: MJ Ahmad (LinkedIn)
+    - icon: fontawesome/brands/github
+      link: https://github.com/sponsors/mj-nexara
+      name: Sponsor MJ Ahmad
+    - icon: fontawesome/solid/mug-hot
+      link: https://buymeacoffee.com/mjahmad
+      name: Buy Me a Coffee
+    - icon: fontawesome/brands/heart
+      link: https://ko-fi.com/mjahmad
+      name: Support via Ko-fi
+  version:
+    provider: mike
+    default: latest
+  alternate:
+    - name: বাংলা সংস্করণ
+      link: /profile/i18n/index_bn/
+      lang: bn
+
+nav:
+  - 🏠 Home: index.md
+  - 🧭 Ecosystem: ecosystem.md
+  - 🧠 Identity & Vision: identity.md
+  - 📜 Manifesto: manifesto.md
+  - 🚀 Roadmap: roadmap.md
+  - 📂 Versions:
+      - v1.0: versions/v1.md
+      - v2.0: versions/v2.md
+  - 🌐 Bengali Pages:
+      - হোম: i18n/index_bn.md
+      - রোডম্যাপ: i18n/roadmap_bn.md
+      - ঘোষণাপত্র: i18n/manifesto_bn.md
+  - 📬 Contact: contact.md
