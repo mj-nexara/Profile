@@ -1,4 +1,4 @@
-# 🧭 Nexara Profile — Strategic Control Hub
+# 🧭 MJ-Nexara
 
 This repository serves as the primary navigation and documentation layer of the **Nexara Ecosystem**, curated by **MJ Ahmad** — a platform built to encode dignity, transparency, and decentralized ethics.
 
