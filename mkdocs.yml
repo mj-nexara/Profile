@@ -1,7 +1,28 @@
-site_name: My Simple MkDocs Project
-site_url: https://example.com
-nav:
-  - Home: index.md
-  - About: about.md
+site_name: MJ-Nexara
+site_url: https://mj-nexara.github.io/profile/
+repo_url: https://github.com/mj-nexara/profile
+repo_name: mj-nexara/profile
+
 theme:
   name: material
+  language: en
+  logo: assets/logo.png
+  favicon: assets/favicon.ico
+  palette:
+    scheme: default
+    primary: blue grey
+    accent: indigo
+  features:
+    - search.highlight
+    - search.share
+    - search.suggest
+    - navigation.instant
+    - navigation.tabs
+    - navigation.top
+    - navigation.sections
+    - navigation.expand
+    - header.autohide
+    - toc.integrate
+    - content.code.annotate
+    - version.dropdown
+
